@@ -1,0 +1,1427 @@
+<!-- Round Robin Database Dump --><rrd>	<version> 0003 </version>
+	<step> 300 </step> <!-- Seconds -->
+	<lastupdate> 1221848931 </lastupdate> <!-- 2008-09-19 20:28:51 CEST -->
+
+	<ds>
+		<name> players </name>
+		<type> GAUGE </type>
+		<minimal_heartbeat> 600 </minimal_heartbeat>
+		<min> 0.0000000000e+00 </min>
+		<max> 1.0000000000e+03 </max>
+
+		<!-- PDP Status -->
+		<last_ds> 2 </last_ds>
+		<value> NaN </value>
+		<unknown_sec> 231 </unknown_sec>
+	</ds>
+
+	<ds>
+		<name> pwservs </name>
+		<type> GAUGE </type>
+		<minimal_heartbeat> 600 </minimal_heartbeat>
+		<min> 0.0000000000e+00 </min>
+		<max> 5.0000000000e+02 </max>
+
+		<!-- PDP Status -->
+		<last_ds> 2 </last_ds>
+		<value> NaN </value>
+		<unknown_sec> 231 </unknown_sec>
+	</ds>
+
+	<ds>
+		<name> vacservs </name>
+		<type> GAUGE </type>
+		<minimal_heartbeat> 600 </minimal_heartbeat>
+		<min> 0.0000000000e+00 </min>
+		<max> 5.0000000000e+02 </max>
+
+		<!-- PDP Status -->
+		<last_ds> 2 </last_ds>
+		<value> NaN </value>
+		<unknown_sec> 231 </unknown_sec>
+	</ds>
+
+	<ds>
+		<name> servs </name>
+		<type> GAUGE </type>
+		<minimal_heartbeat> 600 </minimal_heartbeat>
+		<min> 0.0000000000e+00 </min>
+		<max> 5.0000000000e+02 </max>
+
+		<!-- PDP Status -->
+		<last_ds> 2 </last_ds>
+		<value> NaN </value>
+		<unknown_sec> 231 </unknown_sec>
+	</ds>
+
+	<ds>
+		<name> playerspace </name>
+		<type> GAUGE </type>
+		<minimal_heartbeat> 600 </minimal_heartbeat>
+		<min> 0.0000000000e+00 </min>
+		<max> 1.0000000000e+04 </max>
+
+		<!-- PDP Status -->
+		<last_ds> 40 </last_ds>
+		<value> NaN </value>
+		<unknown_sec> 231 </unknown_sec>
+	</ds>
+
+	<ds>
+		<name> bots </name>
+		<type> GAUGE </type>
+		<minimal_heartbeat> 600 </minimal_heartbeat>
+		<min> 0.0000000000e+00 </min>
+		<max> 1.0000000000e+03 </max>
+
+		<!-- PDP Status -->
+		<last_ds> 1 </last_ds>
+		<value> NaN </value>
+		<unknown_sec> 231 </unknown_sec>
+	</ds>
+
+<!-- Round Robin Archives -->	<rra>
+		<cf> AVERAGE </cf>
+		<pdp_per_row> 1 </pdp_per_row> <!-- 300 seconds -->
+
+		<params>
+		<xff> 5.0000000000e-01 </xff>
+		</params>
+		<cdp_prep>
+			<ds>
+			<primary_value> NaN </primary_value>
+			<secondary_value> NaN </secondary_value>
+			<value> NaN </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> NaN </primary_value>
+			<secondary_value> NaN </secondary_value>
+			<value> NaN </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> NaN </primary_value>
+			<secondary_value> NaN </secondary_value>
+			<value> NaN </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> NaN </primary_value>
+			<secondary_value> NaN </secondary_value>
+			<value> NaN </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> NaN </primary_value>
+			<secondary_value> NaN </secondary_value>
+			<value> NaN </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> NaN </primary_value>
+			<secondary_value> NaN </secondary_value>
+			<value> NaN </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+		</cdp_prep>
+		<database>
+			<!-- 2008-09-18 20:30:00 CEST / 1221762600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 20:35:00 CEST / 1221762900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 20:40:00 CEST / 1221763200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 20:45:00 CEST / 1221763500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 20:50:00 CEST / 1221763800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 20:55:00 CEST / 1221764100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 21:00:00 CEST / 1221764400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 21:05:00 CEST / 1221764700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 21:10:00 CEST / 1221765000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 21:15:00 CEST / 1221765300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 21:20:00 CEST / 1221765600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 21:25:00 CEST / 1221765900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 21:30:00 CEST / 1221766200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 21:35:00 CEST / 1221766500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 21:40:00 CEST / 1221766800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 21:45:00 CEST / 1221767100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 21:50:00 CEST / 1221767400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 21:55:00 CEST / 1221767700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 22:00:00 CEST / 1221768000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 22:05:00 CEST / 1221768300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 22:10:00 CEST / 1221768600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 22:15:00 CEST / 1221768900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 22:20:00 CEST / 1221769200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 22:25:00 CEST / 1221769500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 22:30:00 CEST / 1221769800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 22:35:00 CEST / 1221770100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 22:40:00 CEST / 1221770400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 22:45:00 CEST / 1221770700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 22:50:00 CEST / 1221771000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 22:55:00 CEST / 1221771300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 23:00:00 CEST / 1221771600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 23:05:00 CEST / 1221771900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 23:10:00 CEST / 1221772200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 23:15:00 CEST / 1221772500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 23:20:00 CEST / 1221772800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 23:25:00 CEST / 1221773100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 23:30:00 CEST / 1221773400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 23:35:00 CEST / 1221773700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 23:40:00 CEST / 1221774000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 23:45:00 CEST / 1221774300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 23:50:00 CEST / 1221774600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 23:55:00 CEST / 1221774900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 00:00:00 CEST / 1221775200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 00:05:00 CEST / 1221775500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 00:10:00 CEST / 1221775800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 00:15:00 CEST / 1221776100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 00:20:00 CEST / 1221776400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 00:25:00 CEST / 1221776700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 00:30:00 CEST / 1221777000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 00:35:00 CEST / 1221777300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 00:40:00 CEST / 1221777600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 00:45:00 CEST / 1221777900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 00:50:00 CEST / 1221778200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 00:55:00 CEST / 1221778500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 01:00:00 CEST / 1221778800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 01:05:00 CEST / 1221779100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 01:10:00 CEST / 1221779400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 01:15:00 CEST / 1221779700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 01:20:00 CEST / 1221780000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 01:25:00 CEST / 1221780300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 01:30:00 CEST / 1221780600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 01:35:00 CEST / 1221780900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 01:40:00 CEST / 1221781200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 01:45:00 CEST / 1221781500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 01:50:00 CEST / 1221781800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 01:55:00 CEST / 1221782100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 02:00:00 CEST / 1221782400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 02:05:00 CEST / 1221782700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 02:10:00 CEST / 1221783000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 02:15:00 CEST / 1221783300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 02:20:00 CEST / 1221783600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 02:25:00 CEST / 1221783900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 02:30:00 CEST / 1221784200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 02:35:00 CEST / 1221784500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 02:40:00 CEST / 1221784800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 02:45:00 CEST / 1221785100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 02:50:00 CEST / 1221785400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 02:55:00 CEST / 1221785700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 03:00:00 CEST / 1221786000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 03:05:00 CEST / 1221786300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 03:10:00 CEST / 1221786600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 03:15:00 CEST / 1221786900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 03:20:00 CEST / 1221787200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 03:25:00 CEST / 1221787500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 03:30:00 CEST / 1221787800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 03:35:00 CEST / 1221788100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 03:40:00 CEST / 1221788400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 03:45:00 CEST / 1221788700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 03:50:00 CEST / 1221789000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 03:55:00 CEST / 1221789300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 04:00:00 CEST / 1221789600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 04:05:00 CEST / 1221789900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 04:10:00 CEST / 1221790200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 04:15:00 CEST / 1221790500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 04:20:00 CEST / 1221790800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 04:25:00 CEST / 1221791100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 04:30:00 CEST / 1221791400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 04:35:00 CEST / 1221791700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 04:40:00 CEST / 1221792000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 04:45:00 CEST / 1221792300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 04:50:00 CEST / 1221792600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 04:55:00 CEST / 1221792900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 05:00:00 CEST / 1221793200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 05:05:00 CEST / 1221793500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 05:10:00 CEST / 1221793800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 05:15:00 CEST / 1221794100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 05:20:00 CEST / 1221794400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 05:25:00 CEST / 1221794700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 05:30:00 CEST / 1221795000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 05:35:00 CEST / 1221795300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 05:40:00 CEST / 1221795600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 05:45:00 CEST / 1221795900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 05:50:00 CEST / 1221796200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 05:55:00 CEST / 1221796500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 06:00:00 CEST / 1221796800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 06:05:00 CEST / 1221797100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 06:10:00 CEST / 1221797400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 06:15:00 CEST / 1221797700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 06:20:00 CEST / 1221798000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 06:25:00 CEST / 1221798300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 06:30:00 CEST / 1221798600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 06:35:00 CEST / 1221798900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 06:40:00 CEST / 1221799200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 06:45:00 CEST / 1221799500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 06:50:00 CEST / 1221799800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 06:55:00 CEST / 1221800100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 07:00:00 CEST / 1221800400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 07:05:00 CEST / 1221800700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 07:10:00 CEST / 1221801000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 07:15:00 CEST / 1221801300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 07:20:00 CEST / 1221801600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 07:25:00 CEST / 1221801900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 07:30:00 CEST / 1221802200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 07:35:00 CEST / 1221802500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 07:40:00 CEST / 1221802800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 07:45:00 CEST / 1221803100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 07:50:00 CEST / 1221803400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 07:55:00 CEST / 1221803700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 08:00:00 CEST / 1221804000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 08:05:00 CEST / 1221804300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 08:10:00 CEST / 1221804600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 08:15:00 CEST / 1221804900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 08:20:00 CEST / 1221805200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 08:25:00 CEST / 1221805500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 08:30:00 CEST / 1221805800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 08:35:00 CEST / 1221806100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 08:40:00 CEST / 1221806400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 08:45:00 CEST / 1221806700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 08:50:00 CEST / 1221807000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 08:55:00 CEST / 1221807300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 09:00:00 CEST / 1221807600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 09:05:00 CEST / 1221807900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 09:10:00 CEST / 1221808200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 09:15:00 CEST / 1221808500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 09:20:00 CEST / 1221808800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 09:25:00 CEST / 1221809100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 09:30:00 CEST / 1221809400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 09:35:00 CEST / 1221809700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 09:40:00 CEST / 1221810000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 09:45:00 CEST / 1221810300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 09:50:00 CEST / 1221810600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 09:55:00 CEST / 1221810900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 10:00:00 CEST / 1221811200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 10:05:00 CEST / 1221811500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 10:10:00 CEST / 1221811800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 10:15:00 CEST / 1221812100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 10:20:00 CEST / 1221812400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 10:25:00 CEST / 1221812700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 10:30:00 CEST / 1221813000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 10:35:00 CEST / 1221813300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 10:40:00 CEST / 1221813600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 10:45:00 CEST / 1221813900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 10:50:00 CEST / 1221814200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 10:55:00 CEST / 1221814500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 11:00:00 CEST / 1221814800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 11:05:00 CEST / 1221815100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 11:10:00 CEST / 1221815400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 11:15:00 CEST / 1221815700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 11:20:00 CEST / 1221816000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 11:25:00 CEST / 1221816300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 11:30:00 CEST / 1221816600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 11:35:00 CEST / 1221816900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 11:40:00 CEST / 1221817200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 11:45:00 CEST / 1221817500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 11:50:00 CEST / 1221817800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 11:55:00 CEST / 1221818100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 12:00:00 CEST / 1221818400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 12:05:00 CEST / 1221818700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 12:10:00 CEST / 1221819000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 12:15:00 CEST / 1221819300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 12:20:00 CEST / 1221819600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 12:25:00 CEST / 1221819900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 12:30:00 CEST / 1221820200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 12:35:00 CEST / 1221820500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 12:40:00 CEST / 1221820800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 12:45:00 CEST / 1221821100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 12:50:00 CEST / 1221821400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 12:55:00 CEST / 1221821700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 13:00:00 CEST / 1221822000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 13:05:00 CEST / 1221822300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 13:10:00 CEST / 1221822600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 13:15:00 CEST / 1221822900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 13:20:00 CEST / 1221823200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 13:25:00 CEST / 1221823500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 13:30:00 CEST / 1221823800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 13:35:00 CEST / 1221824100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 13:40:00 CEST / 1221824400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 13:45:00 CEST / 1221824700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 13:50:00 CEST / 1221825000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 13:55:00 CEST / 1221825300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 14:00:00 CEST / 1221825600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 14:05:00 CEST / 1221825900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 14:10:00 CEST / 1221826200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 14:15:00 CEST / 1221826500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 14:20:00 CEST / 1221826800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 14:25:00 CEST / 1221827100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 14:30:00 CEST / 1221827400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 14:35:00 CEST / 1221827700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 14:40:00 CEST / 1221828000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 14:45:00 CEST / 1221828300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 14:50:00 CEST / 1221828600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 14:55:00 CEST / 1221828900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 15:00:00 CEST / 1221829200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 15:05:00 CEST / 1221829500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 15:10:00 CEST / 1221829800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 15:15:00 CEST / 1221830100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 15:20:00 CEST / 1221830400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 15:25:00 CEST / 1221830700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 15:30:00 CEST / 1221831000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 15:35:00 CEST / 1221831300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 15:40:00 CEST / 1221831600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 15:45:00 CEST / 1221831900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 15:50:00 CEST / 1221832200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 15:55:00 CEST / 1221832500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 16:00:00 CEST / 1221832800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 16:05:00 CEST / 1221833100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 16:10:00 CEST / 1221833400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 16:15:00 CEST / 1221833700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 16:20:00 CEST / 1221834000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 16:25:00 CEST / 1221834300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 16:30:00 CEST / 1221834600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 16:35:00 CEST / 1221834900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 16:40:00 CEST / 1221835200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 16:45:00 CEST / 1221835500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 16:50:00 CEST / 1221835800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 16:55:00 CEST / 1221836100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 17:00:00 CEST / 1221836400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 17:05:00 CEST / 1221836700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 17:10:00 CEST / 1221837000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 17:15:00 CEST / 1221837300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 17:20:00 CEST / 1221837600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 17:25:00 CEST / 1221837900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 17:30:00 CEST / 1221838200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 17:35:00 CEST / 1221838500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 17:40:00 CEST / 1221838800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 17:45:00 CEST / 1221839100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 17:50:00 CEST / 1221839400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 17:55:00 CEST / 1221839700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 18:00:00 CEST / 1221840000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 18:05:00 CEST / 1221840300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 18:10:00 CEST / 1221840600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 18:15:00 CEST / 1221840900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 18:20:00 CEST / 1221841200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 18:25:00 CEST / 1221841500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 18:30:00 CEST / 1221841800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 18:35:00 CEST / 1221842100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 18:40:00 CEST / 1221842400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 18:45:00 CEST / 1221842700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 18:50:00 CEST / 1221843000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 18:55:00 CEST / 1221843300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 19:00:00 CEST / 1221843600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 19:05:00 CEST / 1221843900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 19:10:00 CEST / 1221844200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 19:15:00 CEST / 1221844500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 19:20:00 CEST / 1221844800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 19:25:00 CEST / 1221845100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 19:30:00 CEST / 1221845400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 19:35:00 CEST / 1221845700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 19:40:00 CEST / 1221846000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 19:45:00 CEST / 1221846300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 19:50:00 CEST / 1221846600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 19:55:00 CEST / 1221846900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 20:00:00 CEST / 1221847200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 20:05:00 CEST / 1221847500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 20:10:00 CEST / 1221847800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 20:15:00 CEST / 1221848100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 20:20:00 CEST / 1221848400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 20:25:00 CEST / 1221848700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+		</database>
+	</rra>
+	<rra>
+		<cf> AVERAGE </cf>
+		<pdp_per_row> 7 </pdp_per_row> <!-- 2100 seconds -->
+
+		<params>
+		<xff> 5.0000000000e-01 </xff>
+		</params>
+		<cdp_prep>
+			<ds>
+			<primary_value> 2.9298452195e+01 </primary_value>
+			<secondary_value> 3.5656476173e+01 </secondary_value>
+			<value> 1.0999912939e+02 </value>
+			<unknown_datapoints> 2 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 6.0000000000e+00 </primary_value>
+			<secondary_value> 6.0000000000e+00 </secondary_value>
+			<value> 1.8000000000e+01 </value>
+			<unknown_datapoints> 2 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 2.4881680273e+01 </primary_value>
+			<secondary_value> 2.4171761913e+01 </secondary_value>
+			<value> 7.1172512117e+01 </value>
+			<unknown_datapoints> 2 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 2.4881680273e+01 </primary_value>
+			<secondary_value> 2.4171761913e+01 </secondary_value>
+			<value> 7.1172512117e+01 </value>
+			<unknown_datapoints> 2 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 4.4163360547e+02 </primary_value>
+			<secondary_value> 4.2743523827e+02 </secondary_value>
+			<value> 1.2554502423e+03 </value>
+			<unknown_datapoints> 2 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 5.0000000000e+00 </primary_value>
+			<secondary_value> 5.0000000000e+00 </secondary_value>
+			<value> 1.5000000000e+01 </value>
+			<unknown_datapoints> 2 </unknown_datapoints>
+			</ds>
+		</cdp_prep>
+		<database>
+			<!-- 2008-09-12 20:35:00 CEST / 1221244500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-12 21:10:00 CEST / 1221246600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-12 21:45:00 CEST / 1221248700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-12 22:20:00 CEST / 1221250800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-12 22:55:00 CEST / 1221252900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-12 23:30:00 CEST / 1221255000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 00:05:00 CEST / 1221257100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 00:40:00 CEST / 1221259200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 01:15:00 CEST / 1221261300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 01:50:00 CEST / 1221263400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 02:25:00 CEST / 1221265500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 03:00:00 CEST / 1221267600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 03:35:00 CEST / 1221269700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 04:10:00 CEST / 1221271800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 04:45:00 CEST / 1221273900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 05:20:00 CEST / 1221276000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 05:55:00 CEST / 1221278100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 06:30:00 CEST / 1221280200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 07:05:00 CEST / 1221282300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 07:40:00 CEST / 1221284400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 08:15:00 CEST / 1221286500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 08:50:00 CEST / 1221288600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 09:25:00 CEST / 1221290700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 10:00:00 CEST / 1221292800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 10:35:00 CEST / 1221294900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 11:10:00 CEST / 1221297000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 11:45:00 CEST / 1221299100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 12:20:00 CEST / 1221301200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 12:55:00 CEST / 1221303300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 13:30:00 CEST / 1221305400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 14:05:00 CEST / 1221307500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 14:40:00 CEST / 1221309600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 15:15:00 CEST / 1221311700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 15:50:00 CEST / 1221313800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 16:25:00 CEST / 1221315900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 17:00:00 CEST / 1221318000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 17:35:00 CEST / 1221320100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 18:10:00 CEST / 1221322200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 18:45:00 CEST / 1221324300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 19:20:00 CEST / 1221326400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 19:55:00 CEST / 1221328500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 20:30:00 CEST / 1221330600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 21:05:00 CEST / 1221332700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 21:40:00 CEST / 1221334800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 22:15:00 CEST / 1221336900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 22:50:00 CEST / 1221339000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 23:25:00 CEST / 1221341100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 00:00:00 CEST / 1221343200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 00:35:00 CEST / 1221345300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 01:10:00 CEST / 1221347400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 01:45:00 CEST / 1221349500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 02:20:00 CEST / 1221351600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 02:55:00 CEST / 1221353700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 03:30:00 CEST / 1221355800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 04:05:00 CEST / 1221357900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 04:40:00 CEST / 1221360000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 05:15:00 CEST / 1221362100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 05:50:00 CEST / 1221364200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 06:25:00 CEST / 1221366300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 07:00:00 CEST / 1221368400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 07:35:00 CEST / 1221370500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 08:10:00 CEST / 1221372600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 08:45:00 CEST / 1221374700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 09:20:00 CEST / 1221376800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 09:55:00 CEST / 1221378900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 10:30:00 CEST / 1221381000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 11:05:00 CEST / 1221383100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 11:40:00 CEST / 1221385200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 12:15:00 CEST / 1221387300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 12:50:00 CEST / 1221389400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 13:25:00 CEST / 1221391500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 14:00:00 CEST / 1221393600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 14:35:00 CEST / 1221395700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 15:10:00 CEST / 1221397800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 15:45:00 CEST / 1221399900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 16:20:00 CEST / 1221402000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 16:55:00 CEST / 1221404100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 17:30:00 CEST / 1221406200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 18:05:00 CEST / 1221408300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 18:40:00 CEST / 1221410400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 19:15:00 CEST / 1221412500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 19:50:00 CEST / 1221414600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 20:25:00 CEST / 1221416700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 21:00:00 CEST / 1221418800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 21:35:00 CEST / 1221420900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 22:10:00 CEST / 1221423000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 22:45:00 CEST / 1221425100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 23:20:00 CEST / 1221427200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 23:55:00 CEST / 1221429300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 00:30:00 CEST / 1221431400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 01:05:00 CEST / 1221433500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 01:40:00 CEST / 1221435600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 02:15:00 CEST / 1221437700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 02:50:00 CEST / 1221439800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 03:25:00 CEST / 1221441900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 04:00:00 CEST / 1221444000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 04:35:00 CEST / 1221446100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 05:10:00 CEST / 1221448200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 05:45:00 CEST / 1221450300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 06:20:00 CEST / 1221452400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 06:55:00 CEST / 1221454500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 07:30:00 CEST / 1221456600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 08:05:00 CEST / 1221458700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 08:40:00 CEST / 1221460800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 09:15:00 CEST / 1221462900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 09:50:00 CEST / 1221465000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 10:25:00 CEST / 1221467100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 11:00:00 CEST / 1221469200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 11:35:00 CEST / 1221471300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 12:10:00 CEST / 1221473400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 12:45:00 CEST / 1221475500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 13:20:00 CEST / 1221477600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 13:55:00 CEST / 1221479700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 14:30:00 CEST / 1221481800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 15:05:00 CEST / 1221483900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 15:40:00 CEST / 1221486000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 16:15:00 CEST / 1221488100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 16:50:00 CEST / 1221490200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 17:25:00 CEST / 1221492300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 18:00:00 CEST / 1221494400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 18:35:00 CEST / 1221496500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 19:10:00 CEST / 1221498600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 19:45:00 CEST / 1221500700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 20:20:00 CEST / 1221502800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 20:55:00 CEST / 1221504900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 21:30:00 CEST / 1221507000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 22:05:00 CEST / 1221509100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 22:40:00 CEST / 1221511200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 23:15:00 CEST / 1221513300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 23:50:00 CEST / 1221515400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 00:25:00 CEST / 1221517500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 01:00:00 CEST / 1221519600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 01:35:00 CEST / 1221521700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 02:10:00 CEST / 1221523800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 02:45:00 CEST / 1221525900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 03:20:00 CEST / 1221528000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 03:55:00 CEST / 1221530100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 04:30:00 CEST / 1221532200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 05:05:00 CEST / 1221534300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 05:40:00 CEST / 1221536400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 06:15:00 CEST / 1221538500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 06:50:00 CEST / 1221540600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 07:25:00 CEST / 1221542700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 08:00:00 CEST / 1221544800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 08:35:00 CEST / 1221546900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 09:10:00 CEST / 1221549000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 09:45:00 CEST / 1221551100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 10:20:00 CEST / 1221553200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 10:55:00 CEST / 1221555300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 11:30:00 CEST / 1221557400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 12:05:00 CEST / 1221559500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 12:40:00 CEST / 1221561600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 13:15:00 CEST / 1221563700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 13:50:00 CEST / 1221565800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 14:25:00 CEST / 1221567900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 15:00:00 CEST / 1221570000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 15:35:00 CEST / 1221572100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 16:10:00 CEST / 1221574200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 16:45:00 CEST / 1221576300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 17:20:00 CEST / 1221578400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 17:55:00 CEST / 1221580500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 18:30:00 CEST / 1221582600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 19:05:00 CEST / 1221584700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 19:40:00 CEST / 1221586800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 20:15:00 CEST / 1221588900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 20:50:00 CEST / 1221591000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 21:25:00 CEST / 1221593100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 22:00:00 CEST / 1221595200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 22:35:00 CEST / 1221597300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 23:10:00 CEST / 1221599400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 23:45:00 CEST / 1221601500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 00:20:00 CEST / 1221603600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 00:55:00 CEST / 1221605700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 01:30:00 CEST / 1221607800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 02:05:00 CEST / 1221609900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 02:40:00 CEST / 1221612000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 03:15:00 CEST / 1221614100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 03:50:00 CEST / 1221616200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 04:25:00 CEST / 1221618300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 05:00:00 CEST / 1221620400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 05:35:00 CEST / 1221622500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 06:10:00 CEST / 1221624600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 06:45:00 CEST / 1221626700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 07:20:00 CEST / 1221628800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 07:55:00 CEST / 1221630900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 08:30:00 CEST / 1221633000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 09:05:00 CEST / 1221635100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 09:40:00 CEST / 1221637200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 10:15:00 CEST / 1221639300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 10:50:00 CEST / 1221641400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 11:25:00 CEST / 1221643500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 12:00:00 CEST / 1221645600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 12:35:00 CEST / 1221647700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 13:10:00 CEST / 1221649800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 13:45:00 CEST / 1221651900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 14:20:00 CEST / 1221654000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 14:55:00 CEST / 1221656100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 15:30:00 CEST / 1221658200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 16:05:00 CEST / 1221660300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 16:40:00 CEST / 1221662400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 17:15:00 CEST / 1221664500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 17:50:00 CEST / 1221666600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 18:25:00 CEST / 1221668700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 19:00:00 CEST / 1221670800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 19:35:00 CEST / 1221672900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 20:10:00 CEST / 1221675000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 20:45:00 CEST / 1221677100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 21:20:00 CEST / 1221679200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 21:55:00 CEST / 1221681300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 22:30:00 CEST / 1221683400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 23:05:00 CEST / 1221685500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 23:40:00 CEST / 1221687600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 00:15:00 CEST / 1221689700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 00:50:00 CEST / 1221691800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 01:25:00 CEST / 1221693900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 02:00:00 CEST / 1221696000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 02:35:00 CEST / 1221698100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 03:10:00 CEST / 1221700200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 03:45:00 CEST / 1221702300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 04:20:00 CEST / 1221704400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 04:55:00 CEST / 1221706500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 05:30:00 CEST / 1221708600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 06:05:00 CEST / 1221710700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 06:40:00 CEST / 1221712800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 07:15:00 CEST / 1221714900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 07:50:00 CEST / 1221717000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 08:25:00 CEST / 1221719100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 09:00:00 CEST / 1221721200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 09:35:00 CEST / 1221723300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 10:10:00 CEST / 1221725400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 10:45:00 CEST / 1221727500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 11:20:00 CEST / 1221729600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 11:55:00 CEST / 1221731700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 12:30:00 CEST / 1221733800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 13:05:00 CEST / 1221735900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 13:40:00 CEST / 1221738000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 14:15:00 CEST / 1221740100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 14:50:00 CEST / 1221742200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 15:25:00 CEST / 1221744300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 16:00:00 CEST / 1221746400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 16:35:00 CEST / 1221748500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 17:10:00 CEST / 1221750600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 17:45:00 CEST / 1221752700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 18:20:00 CEST / 1221754800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 18:55:00 CEST / 1221756900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 19:30:00 CEST / 1221759000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 20:05:00 CEST / 1221761100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 20:40:00 CEST / 1221763200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 21:15:00 CEST / 1221765300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 21:50:00 CEST / 1221767400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 22:25:00 CEST / 1221769500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 23:00:00 CEST / 1221771600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 23:35:00 CEST / 1221773700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 00:10:00 CEST / 1221775800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 00:45:00 CEST / 1221777900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 01:20:00 CEST / 1221780000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 01:55:00 CEST / 1221782100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 02:30:00 CEST / 1221784200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 03:05:00 CEST / 1221786300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 03:40:00 CEST / 1221788400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 04:15:00 CEST / 1221790500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 04:50:00 CEST / 1221792600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 05:25:00 CEST / 1221794700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 06:00:00 CEST / 1221796800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 06:35:00 CEST / 1221798900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 07:10:00 CEST / 1221801000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 07:45:00 CEST / 1221803100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 08:20:00 CEST / 1221805200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 08:55:00 CEST / 1221807300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 09:30:00 CEST / 1221809400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 10:05:00 CEST / 1221811500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 10:40:00 CEST / 1221813600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 11:15:00 CEST / 1221815700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 11:50:00 CEST / 1221817800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 12:25:00 CEST / 1221819900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 13:00:00 CEST / 1221822000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 13:35:00 CEST / 1221824100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 14:10:00 CEST / 1221826200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 14:45:00 CEST / 1221828300 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 15:20:00 CEST / 1221830400 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 15:55:00 CEST / 1221832500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 16:30:00 CEST / 1221834600 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 17:05:00 CEST / 1221836700 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 17:40:00 CEST / 1221838800 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 18:15:00 CEST / 1221840900 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 18:50:00 CEST / 1221843000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 19:25:00 CEST / 1221845100 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 20:00:00 CEST / 1221847200 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+		</database>
+	</rra>
+	<rra>
+		<cf> AVERAGE </cf>
+		<pdp_per_row> 30 </pdp_per_row> <!-- 9000 seconds -->
+
+		<params>
+		<xff> 5.0000000000e-01 </xff>
+		</params>
+		<cdp_prep>
+			<ds>
+			<primary_value> 2.4517097597e+01 </primary_value>
+			<secondary_value> 2.3343411433e+01 </secondary_value>
+			<value> 7.0675673433e+02 </value>
+			<unknown_datapoints> 2 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 6.0000000000e+00 </primary_value>
+			<secondary_value> 6.0000000000e+00 </secondary_value>
+			<value> 1.6200000000e+02 </value>
+			<unknown_datapoints> 2 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 2.4899979605e+01 </primary_value>
+			<secondary_value> 2.5000000000e+01 </secondary_value>
+			<value> 6.6734307733e+02 </value>
+			<unknown_datapoints> 2 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 2.4899979605e+01 </primary_value>
+			<secondary_value> 2.5000000000e+01 </secondary_value>
+			<value> 6.6734307733e+02 </value>
+			<unknown_datapoints> 2 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 4.4199959211e+02 </primary_value>
+			<secondary_value> 4.4400000000e+02 </secondary_value>
+			<value> 1.1834861547e+04 </value>
+			<unknown_datapoints> 2 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 5.0000000000e+00 </primary_value>
+			<secondary_value> 5.0000000000e+00 </secondary_value>
+			<value> 1.3500000000e+02 </value>
+			<unknown_datapoints> 2 </unknown_datapoints>
+			</ds>
+		</cdp_prep>
+		<database>
+			<!-- 2008-08-20 20:30:00 CEST / 1219257000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-20 23:00:00 CEST / 1219266000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-21 01:30:00 CEST / 1219275000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-21 04:00:00 CEST / 1219284000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-21 06:30:00 CEST / 1219293000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-21 09:00:00 CEST / 1219302000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-21 11:30:00 CEST / 1219311000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-21 14:00:00 CEST / 1219320000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-21 16:30:00 CEST / 1219329000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-21 19:00:00 CEST / 1219338000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-21 21:30:00 CEST / 1219347000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-22 00:00:00 CEST / 1219356000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-22 02:30:00 CEST / 1219365000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-22 05:00:00 CEST / 1219374000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-22 07:30:00 CEST / 1219383000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-22 10:00:00 CEST / 1219392000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-22 12:30:00 CEST / 1219401000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-22 15:00:00 CEST / 1219410000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-22 17:30:00 CEST / 1219419000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-22 20:00:00 CEST / 1219428000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-22 22:30:00 CEST / 1219437000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-23 01:00:00 CEST / 1219446000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-23 03:30:00 CEST / 1219455000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-23 06:00:00 CEST / 1219464000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-23 08:30:00 CEST / 1219473000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-23 11:00:00 CEST / 1219482000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-23 13:30:00 CEST / 1219491000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-23 16:00:00 CEST / 1219500000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-23 18:30:00 CEST / 1219509000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-23 21:00:00 CEST / 1219518000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-23 23:30:00 CEST / 1219527000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-24 02:00:00 CEST / 1219536000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-24 04:30:00 CEST / 1219545000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-24 07:00:00 CEST / 1219554000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-24 09:30:00 CEST / 1219563000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-24 12:00:00 CEST / 1219572000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-24 14:30:00 CEST / 1219581000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-24 17:00:00 CEST / 1219590000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-24 19:30:00 CEST / 1219599000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-24 22:00:00 CEST / 1219608000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-25 00:30:00 CEST / 1219617000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-25 03:00:00 CEST / 1219626000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-25 05:30:00 CEST / 1219635000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-25 08:00:00 CEST / 1219644000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-25 10:30:00 CEST / 1219653000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-25 13:00:00 CEST / 1219662000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-25 15:30:00 CEST / 1219671000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-25 18:00:00 CEST / 1219680000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-25 20:30:00 CEST / 1219689000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-25 23:00:00 CEST / 1219698000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-26 01:30:00 CEST / 1219707000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-26 04:00:00 CEST / 1219716000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-26 06:30:00 CEST / 1219725000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-26 09:00:00 CEST / 1219734000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-26 11:30:00 CEST / 1219743000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-26 14:00:00 CEST / 1219752000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-26 16:30:00 CEST / 1219761000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-26 19:00:00 CEST / 1219770000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-26 21:30:00 CEST / 1219779000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-27 00:00:00 CEST / 1219788000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-27 02:30:00 CEST / 1219797000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-27 05:00:00 CEST / 1219806000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-27 07:30:00 CEST / 1219815000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-27 10:00:00 CEST / 1219824000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-27 12:30:00 CEST / 1219833000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-27 15:00:00 CEST / 1219842000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-27 17:30:00 CEST / 1219851000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-27 20:00:00 CEST / 1219860000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-27 22:30:00 CEST / 1219869000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-28 01:00:00 CEST / 1219878000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-28 03:30:00 CEST / 1219887000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-28 06:00:00 CEST / 1219896000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-28 08:30:00 CEST / 1219905000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-28 11:00:00 CEST / 1219914000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-28 13:30:00 CEST / 1219923000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-28 16:00:00 CEST / 1219932000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-28 18:30:00 CEST / 1219941000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-28 21:00:00 CEST / 1219950000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-28 23:30:00 CEST / 1219959000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-29 02:00:00 CEST / 1219968000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-29 04:30:00 CEST / 1219977000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-29 07:00:00 CEST / 1219986000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-29 09:30:00 CEST / 1219995000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-29 12:00:00 CEST / 1220004000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-29 14:30:00 CEST / 1220013000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-29 17:00:00 CEST / 1220022000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-29 19:30:00 CEST / 1220031000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-29 22:00:00 CEST / 1220040000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-30 00:30:00 CEST / 1220049000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-30 03:00:00 CEST / 1220058000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-30 05:30:00 CEST / 1220067000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-30 08:00:00 CEST / 1220076000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-30 10:30:00 CEST / 1220085000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-30 13:00:00 CEST / 1220094000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-30 15:30:00 CEST / 1220103000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-30 18:00:00 CEST / 1220112000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-30 20:30:00 CEST / 1220121000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-30 23:00:00 CEST / 1220130000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-31 01:30:00 CEST / 1220139000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-31 04:00:00 CEST / 1220148000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-31 06:30:00 CEST / 1220157000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-31 09:00:00 CEST / 1220166000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-31 11:30:00 CEST / 1220175000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-31 14:00:00 CEST / 1220184000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-31 16:30:00 CEST / 1220193000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-31 19:00:00 CEST / 1220202000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-31 21:30:00 CEST / 1220211000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-01 00:00:00 CEST / 1220220000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-01 02:30:00 CEST / 1220229000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-01 05:00:00 CEST / 1220238000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-01 07:30:00 CEST / 1220247000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-01 10:00:00 CEST / 1220256000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-01 12:30:00 CEST / 1220265000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-01 15:00:00 CEST / 1220274000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-01 17:30:00 CEST / 1220283000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-01 20:00:00 CEST / 1220292000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-01 22:30:00 CEST / 1220301000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-02 01:00:00 CEST / 1220310000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-02 03:30:00 CEST / 1220319000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-02 06:00:00 CEST / 1220328000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-02 08:30:00 CEST / 1220337000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-02 11:00:00 CEST / 1220346000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-02 13:30:00 CEST / 1220355000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-02 16:00:00 CEST / 1220364000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-02 18:30:00 CEST / 1220373000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-02 21:00:00 CEST / 1220382000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-02 23:30:00 CEST / 1220391000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-03 02:00:00 CEST / 1220400000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-03 04:30:00 CEST / 1220409000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-03 07:00:00 CEST / 1220418000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-03 09:30:00 CEST / 1220427000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-03 12:00:00 CEST / 1220436000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-03 14:30:00 CEST / 1220445000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-03 17:00:00 CEST / 1220454000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-03 19:30:00 CEST / 1220463000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-03 22:00:00 CEST / 1220472000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-04 00:30:00 CEST / 1220481000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-04 03:00:00 CEST / 1220490000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-04 05:30:00 CEST / 1220499000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-04 08:00:00 CEST / 1220508000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-04 10:30:00 CEST / 1220517000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-04 13:00:00 CEST / 1220526000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-04 15:30:00 CEST / 1220535000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-04 18:00:00 CEST / 1220544000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-04 20:30:00 CEST / 1220553000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-04 23:00:00 CEST / 1220562000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-05 01:30:00 CEST / 1220571000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-05 04:00:00 CEST / 1220580000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-05 06:30:00 CEST / 1220589000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-05 09:00:00 CEST / 1220598000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-05 11:30:00 CEST / 1220607000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-05 14:00:00 CEST / 1220616000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-05 16:30:00 CEST / 1220625000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-05 19:00:00 CEST / 1220634000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-05 21:30:00 CEST / 1220643000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-06 00:00:00 CEST / 1220652000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-06 02:30:00 CEST / 1220661000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-06 05:00:00 CEST / 1220670000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-06 07:30:00 CEST / 1220679000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-06 10:00:00 CEST / 1220688000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-06 12:30:00 CEST / 1220697000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-06 15:00:00 CEST / 1220706000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-06 17:30:00 CEST / 1220715000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-06 20:00:00 CEST / 1220724000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-06 22:30:00 CEST / 1220733000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-07 01:00:00 CEST / 1220742000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-07 03:30:00 CEST / 1220751000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-07 06:00:00 CEST / 1220760000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-07 08:30:00 CEST / 1220769000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-07 11:00:00 CEST / 1220778000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-07 13:30:00 CEST / 1220787000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-07 16:00:00 CEST / 1220796000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-07 18:30:00 CEST / 1220805000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-07 21:00:00 CEST / 1220814000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-07 23:30:00 CEST / 1220823000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-08 02:00:00 CEST / 1220832000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-08 04:30:00 CEST / 1220841000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-08 07:00:00 CEST / 1220850000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-08 09:30:00 CEST / 1220859000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-08 12:00:00 CEST / 1220868000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-08 14:30:00 CEST / 1220877000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-08 17:00:00 CEST / 1220886000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-08 19:30:00 CEST / 1220895000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-08 22:00:00 CEST / 1220904000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-09 00:30:00 CEST / 1220913000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-09 03:00:00 CEST / 1220922000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-09 05:30:00 CEST / 1220931000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-09 08:00:00 CEST / 1220940000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-09 10:30:00 CEST / 1220949000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-09 13:00:00 CEST / 1220958000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-09 15:30:00 CEST / 1220967000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-09 18:00:00 CEST / 1220976000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-09 20:30:00 CEST / 1220985000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-09 23:00:00 CEST / 1220994000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-10 01:30:00 CEST / 1221003000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-10 04:00:00 CEST / 1221012000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-10 06:30:00 CEST / 1221021000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-10 09:00:00 CEST / 1221030000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-10 11:30:00 CEST / 1221039000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-10 14:00:00 CEST / 1221048000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-10 16:30:00 CEST / 1221057000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-10 19:00:00 CEST / 1221066000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-10 21:30:00 CEST / 1221075000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-11 00:00:00 CEST / 1221084000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-11 02:30:00 CEST / 1221093000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-11 05:00:00 CEST / 1221102000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-11 07:30:00 CEST / 1221111000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-11 10:00:00 CEST / 1221120000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-11 12:30:00 CEST / 1221129000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-11 15:00:00 CEST / 1221138000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-11 17:30:00 CEST / 1221147000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-11 20:00:00 CEST / 1221156000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-11 22:30:00 CEST / 1221165000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-12 01:00:00 CEST / 1221174000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-12 03:30:00 CEST / 1221183000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-12 06:00:00 CEST / 1221192000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-12 08:30:00 CEST / 1221201000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-12 11:00:00 CEST / 1221210000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-12 13:30:00 CEST / 1221219000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-12 16:00:00 CEST / 1221228000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-12 18:30:00 CEST / 1221237000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-12 21:00:00 CEST / 1221246000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-12 23:30:00 CEST / 1221255000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 02:00:00 CEST / 1221264000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 04:30:00 CEST / 1221273000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 07:00:00 CEST / 1221282000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 09:30:00 CEST / 1221291000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 12:00:00 CEST / 1221300000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 14:30:00 CEST / 1221309000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 17:00:00 CEST / 1221318000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 19:30:00 CEST / 1221327000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-13 22:00:00 CEST / 1221336000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 00:30:00 CEST / 1221345000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 03:00:00 CEST / 1221354000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 05:30:00 CEST / 1221363000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 08:00:00 CEST / 1221372000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 10:30:00 CEST / 1221381000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 13:00:00 CEST / 1221390000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 15:30:00 CEST / 1221399000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 18:00:00 CEST / 1221408000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 20:30:00 CEST / 1221417000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 23:00:00 CEST / 1221426000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 01:30:00 CEST / 1221435000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 04:00:00 CEST / 1221444000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 06:30:00 CEST / 1221453000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 09:00:00 CEST / 1221462000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 11:30:00 CEST / 1221471000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 14:00:00 CEST / 1221480000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 16:30:00 CEST / 1221489000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 19:00:00 CEST / 1221498000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 21:30:00 CEST / 1221507000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 00:00:00 CEST / 1221516000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 02:30:00 CEST / 1221525000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 05:00:00 CEST / 1221534000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 07:30:00 CEST / 1221543000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 10:00:00 CEST / 1221552000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 12:30:00 CEST / 1221561000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 15:00:00 CEST / 1221570000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 17:30:00 CEST / 1221579000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 20:00:00 CEST / 1221588000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 22:30:00 CEST / 1221597000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 01:00:00 CEST / 1221606000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 03:30:00 CEST / 1221615000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 06:00:00 CEST / 1221624000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 08:30:00 CEST / 1221633000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 11:00:00 CEST / 1221642000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 13:30:00 CEST / 1221651000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 16:00:00 CEST / 1221660000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 18:30:00 CEST / 1221669000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 21:00:00 CEST / 1221678000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-17 23:30:00 CEST / 1221687000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 02:00:00 CEST / 1221696000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 04:30:00 CEST / 1221705000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 07:00:00 CEST / 1221714000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 09:30:00 CEST / 1221723000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 12:00:00 CEST / 1221732000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 14:30:00 CEST / 1221741000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 17:00:00 CEST / 1221750000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 19:30:00 CEST / 1221759000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 22:00:00 CEST / 1221768000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 00:30:00 CEST / 1221777000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 03:00:00 CEST / 1221786000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 05:30:00 CEST / 1221795000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 08:00:00 CEST / 1221804000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 10:30:00 CEST / 1221813000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 13:00:00 CEST / 1221822000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 15:30:00 CEST / 1221831000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 18:00:00 CEST / 1221840000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+		</database>
+	</rra>
+	<rra>
+		<cf> AVERAGE </cf>
+		<pdp_per_row> 365 </pdp_per_row> <!-- 109500 seconds -->
+
+		<params>
+		<xff> 5.0000000000e-01 </xff>
+		</params>
+		<cdp_prep>
+			<ds>
+			<primary_value> 2.7693254610e+01 </primary_value>
+			<secondary_value> 2.4695948960e+01 </secondary_value>
+			<value> 3.3409111438e+03 </value>
+			<unknown_datapoints> 2 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 6.0821738634e+00 </primary_value>
+			<secondary_value> 6.0000000000e+00 </secondary_value>
+			<value> 9.4099990180e+02 </value>
+			<unknown_datapoints> 2 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 2.4477172169e+01 </primary_value>
+			<secondary_value> 2.4000000000e+01 </secondary_value>
+			<value> 3.9041682555e+03 </value>
+			<unknown_datapoints> 2 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 2.4482645412e+01 </primary_value>
+			<secondary_value> 2.4000000000e+01 </secondary_value>
+			<value> 3.9041682555e+03 </value>
+			<unknown_datapoints> 2 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 4.3555517214e+02 </primary_value>
+			<secondary_value> 4.2800000000e+02 </secondary_value>
+			<value> 6.9311059596e+04 </value>
+			<unknown_datapoints> 2 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 5.0881376356e+00 </primary_value>
+			<secondary_value> 5.0000000000e+00 </secondary_value>
+			<value> 7.8399990538e+02 </value>
+			<unknown_datapoints> 2 </unknown_datapoints>
+			</ds>
+		</cdp_prep>
+		<database>
+			<!-- 2007-09-21 13:35:00 CEST / 1190374500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-09-22 20:00:00 CEST / 1190484000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-09-24 02:25:00 CEST / 1190593500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-09-25 08:50:00 CEST / 1190703000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-09-26 15:15:00 CEST / 1190812500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-09-27 21:40:00 CEST / 1190922000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-09-29 04:05:00 CEST / 1191031500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-09-30 10:30:00 CEST / 1191141000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-10-01 16:55:00 CEST / 1191250500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-10-02 23:20:00 CEST / 1191360000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-10-04 05:45:00 CEST / 1191469500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-10-05 12:10:00 CEST / 1191579000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-10-06 18:35:00 CEST / 1191688500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-10-08 01:00:00 CEST / 1191798000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-10-09 07:25:00 CEST / 1191907500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-10-10 13:50:00 CEST / 1192017000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-10-11 20:15:00 CEST / 1192126500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-10-13 02:40:00 CEST / 1192236000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-10-14 09:05:00 CEST / 1192345500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-10-15 15:30:00 CEST / 1192455000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-10-16 21:55:00 CEST / 1192564500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-10-18 04:20:00 CEST / 1192674000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-10-19 10:45:00 CEST / 1192783500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-10-20 17:10:00 CEST / 1192893000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-10-21 23:35:00 CEST / 1193002500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-10-23 06:00:00 CEST / 1193112000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-10-24 12:25:00 CEST / 1193221500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-10-25 18:50:00 CEST / 1193331000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-10-27 01:15:00 CEST / 1193440500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-10-28 06:40:00 CET / 1193550000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-10-29 13:05:00 CET / 1193659500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-10-30 19:30:00 CET / 1193769000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-11-01 01:55:00 CET / 1193878500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-11-02 08:20:00 CET / 1193988000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-11-03 14:45:00 CET / 1194097500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-11-04 21:10:00 CET / 1194207000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-11-06 03:35:00 CET / 1194316500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-11-07 10:00:00 CET / 1194426000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-11-08 16:25:00 CET / 1194535500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-11-09 22:50:00 CET / 1194645000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-11-11 05:15:00 CET / 1194754500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-11-12 11:40:00 CET / 1194864000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-11-13 18:05:00 CET / 1194973500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-11-15 00:30:00 CET / 1195083000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-11-16 06:55:00 CET / 1195192500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-11-17 13:20:00 CET / 1195302000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-11-18 19:45:00 CET / 1195411500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-11-20 02:10:00 CET / 1195521000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-11-21 08:35:00 CET / 1195630500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-11-22 15:00:00 CET / 1195740000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-11-23 21:25:00 CET / 1195849500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-11-25 03:50:00 CET / 1195959000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-11-26 10:15:00 CET / 1196068500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-11-27 16:40:00 CET / 1196178000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-11-28 23:05:00 CET / 1196287500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-11-30 05:30:00 CET / 1196397000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-01 11:55:00 CET / 1196506500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-02 18:20:00 CET / 1196616000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-04 00:45:00 CET / 1196725500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-05 07:10:00 CET / 1196835000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-06 13:35:00 CET / 1196944500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-07 20:00:00 CET / 1197054000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-09 02:25:00 CET / 1197163500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-10 08:50:00 CET / 1197273000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-11 15:15:00 CET / 1197382500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-12 21:40:00 CET / 1197492000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-14 04:05:00 CET / 1197601500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-15 10:30:00 CET / 1197711000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-16 16:55:00 CET / 1197820500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-17 23:20:00 CET / 1197930000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-19 05:45:00 CET / 1198039500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-20 12:10:00 CET / 1198149000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-21 18:35:00 CET / 1198258500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-23 01:00:00 CET / 1198368000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-24 07:25:00 CET / 1198477500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-25 13:50:00 CET / 1198587000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-26 20:15:00 CET / 1198696500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-28 02:40:00 CET / 1198806000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-29 09:05:00 CET / 1198915500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-30 15:30:00 CET / 1199025000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2007-12-31 21:55:00 CET / 1199134500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-01-02 04:20:00 CET / 1199244000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-01-03 10:45:00 CET / 1199353500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-01-04 17:10:00 CET / 1199463000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-01-05 23:35:00 CET / 1199572500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-01-07 06:00:00 CET / 1199682000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-01-08 12:25:00 CET / 1199791500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-01-09 18:50:00 CET / 1199901000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-01-11 01:15:00 CET / 1200010500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-01-12 07:40:00 CET / 1200120000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-01-13 14:05:00 CET / 1200229500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-01-14 20:30:00 CET / 1200339000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-01-16 02:55:00 CET / 1200448500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-01-17 09:20:00 CET / 1200558000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-01-18 15:45:00 CET / 1200667500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-01-19 22:10:00 CET / 1200777000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-01-21 04:35:00 CET / 1200886500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-01-22 11:00:00 CET / 1200996000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-01-23 17:25:00 CET / 1201105500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-01-24 23:50:00 CET / 1201215000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-01-26 06:15:00 CET / 1201324500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-01-27 12:40:00 CET / 1201434000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-01-28 19:05:00 CET / 1201543500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-01-30 01:30:00 CET / 1201653000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-01-31 07:55:00 CET / 1201762500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-02-01 14:20:00 CET / 1201872000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-02-02 20:45:00 CET / 1201981500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-02-04 03:10:00 CET / 1202091000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-02-05 09:35:00 CET / 1202200500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-02-06 16:00:00 CET / 1202310000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-02-07 22:25:00 CET / 1202419500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-02-09 04:50:00 CET / 1202529000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-02-10 11:15:00 CET / 1202638500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-02-11 17:40:00 CET / 1202748000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-02-13 00:05:00 CET / 1202857500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-02-14 06:30:00 CET / 1202967000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-02-15 12:55:00 CET / 1203076500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-02-16 19:20:00 CET / 1203186000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-02-18 01:45:00 CET / 1203295500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-02-19 08:10:00 CET / 1203405000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-02-20 14:35:00 CET / 1203514500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-02-21 21:00:00 CET / 1203624000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-02-23 03:25:00 CET / 1203733500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-02-24 09:50:00 CET / 1203843000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-02-25 16:15:00 CET / 1203952500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-02-26 22:40:00 CET / 1204062000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-02-28 05:05:00 CET / 1204171500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-02-29 11:30:00 CET / 1204281000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-03-01 17:55:00 CET / 1204390500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-03-03 00:20:00 CET / 1204500000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-03-04 06:45:00 CET / 1204609500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-03-05 13:10:00 CET / 1204719000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-03-06 19:35:00 CET / 1204828500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-03-08 02:00:00 CET / 1204938000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-03-09 08:25:00 CET / 1205047500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-03-10 14:50:00 CET / 1205157000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-03-11 21:15:00 CET / 1205266500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-03-13 03:40:00 CET / 1205376000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-03-14 10:05:00 CET / 1205485500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-03-15 16:30:00 CET / 1205595000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-03-16 22:55:00 CET / 1205704500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-03-18 05:20:00 CET / 1205814000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-03-19 11:45:00 CET / 1205923500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-03-20 18:10:00 CET / 1206033000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-03-22 00:35:00 CET / 1206142500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-03-23 07:00:00 CET / 1206252000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-03-24 13:25:00 CET / 1206361500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-03-25 19:50:00 CET / 1206471000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-03-27 02:15:00 CET / 1206580500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-03-28 08:40:00 CET / 1206690000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-03-29 15:05:00 CET / 1206799500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-03-30 22:30:00 CEST / 1206909000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-04-01 04:55:00 CEST / 1207018500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-04-02 11:20:00 CEST / 1207128000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-04-03 17:45:00 CEST / 1207237500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-04-05 00:10:00 CEST / 1207347000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-04-06 06:35:00 CEST / 1207456500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-04-07 13:00:00 CEST / 1207566000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-04-08 19:25:00 CEST / 1207675500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-04-10 01:50:00 CEST / 1207785000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-04-11 08:15:00 CEST / 1207894500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-04-12 14:40:00 CEST / 1208004000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-04-13 21:05:00 CEST / 1208113500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-04-15 03:30:00 CEST / 1208223000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-04-16 09:55:00 CEST / 1208332500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-04-17 16:20:00 CEST / 1208442000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-04-18 22:45:00 CEST / 1208551500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-04-20 05:10:00 CEST / 1208661000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-04-21 11:35:00 CEST / 1208770500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-04-22 18:00:00 CEST / 1208880000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-04-24 00:25:00 CEST / 1208989500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-04-25 06:50:00 CEST / 1209099000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-04-26 13:15:00 CEST / 1209208500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-04-27 19:40:00 CEST / 1209318000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-04-29 02:05:00 CEST / 1209427500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-04-30 08:30:00 CEST / 1209537000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-05-01 14:55:00 CEST / 1209646500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-05-02 21:20:00 CEST / 1209756000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-05-04 03:45:00 CEST / 1209865500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-05-05 10:10:00 CEST / 1209975000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-05-06 16:35:00 CEST / 1210084500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-05-07 23:00:00 CEST / 1210194000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-05-09 05:25:00 CEST / 1210303500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-05-10 11:50:00 CEST / 1210413000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-05-11 18:15:00 CEST / 1210522500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-05-13 00:40:00 CEST / 1210632000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-05-14 07:05:00 CEST / 1210741500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-05-15 13:30:00 CEST / 1210851000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-05-16 19:55:00 CEST / 1210960500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-05-18 02:20:00 CEST / 1211070000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-05-19 08:45:00 CEST / 1211179500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-05-20 15:10:00 CEST / 1211289000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-05-21 21:35:00 CEST / 1211398500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-05-23 04:00:00 CEST / 1211508000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-05-24 10:25:00 CEST / 1211617500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-05-25 16:50:00 CEST / 1211727000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-05-26 23:15:00 CEST / 1211836500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-05-28 05:40:00 CEST / 1211946000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-05-29 12:05:00 CEST / 1212055500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-05-30 18:30:00 CEST / 1212165000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-06-01 00:55:00 CEST / 1212274500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-06-02 07:20:00 CEST / 1212384000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-06-03 13:45:00 CEST / 1212493500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-06-04 20:10:00 CEST / 1212603000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-06-06 02:35:00 CEST / 1212712500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-06-07 09:00:00 CEST / 1212822000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-06-08 15:25:00 CEST / 1212931500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-06-09 21:50:00 CEST / 1213041000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-06-11 04:15:00 CEST / 1213150500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-06-12 10:40:00 CEST / 1213260000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-06-13 17:05:00 CEST / 1213369500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-06-14 23:30:00 CEST / 1213479000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-06-16 05:55:00 CEST / 1213588500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-06-17 12:20:00 CEST / 1213698000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-06-18 18:45:00 CEST / 1213807500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-06-20 01:10:00 CEST / 1213917000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-06-21 07:35:00 CEST / 1214026500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-06-22 14:00:00 CEST / 1214136000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-06-23 20:25:00 CEST / 1214245500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-06-25 02:50:00 CEST / 1214355000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-06-26 09:15:00 CEST / 1214464500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-06-27 15:40:00 CEST / 1214574000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-06-28 22:05:00 CEST / 1214683500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-06-30 04:30:00 CEST / 1214793000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-01 10:55:00 CEST / 1214902500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-02 17:20:00 CEST / 1215012000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-03 23:45:00 CEST / 1215121500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-05 06:10:00 CEST / 1215231000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-06 12:35:00 CEST / 1215340500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-07 19:00:00 CEST / 1215450000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-09 01:25:00 CEST / 1215559500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-10 07:50:00 CEST / 1215669000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-11 14:15:00 CEST / 1215778500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-12 20:40:00 CEST / 1215888000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-14 03:05:00 CEST / 1215997500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-15 09:30:00 CEST / 1216107000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-16 15:55:00 CEST / 1216216500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-17 22:20:00 CEST / 1216326000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-19 04:45:00 CEST / 1216435500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-20 11:10:00 CEST / 1216545000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-21 17:35:00 CEST / 1216654500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-23 00:00:00 CEST / 1216764000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-24 06:25:00 CEST / 1216873500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-25 12:50:00 CEST / 1216983000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-26 19:15:00 CEST / 1217092500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-28 01:40:00 CEST / 1217202000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-29 08:05:00 CEST / 1217311500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-30 14:30:00 CEST / 1217421000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-07-31 20:55:00 CEST / 1217530500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-02 03:20:00 CEST / 1217640000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-03 09:45:00 CEST / 1217749500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-04 16:10:00 CEST / 1217859000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-05 22:35:00 CEST / 1217968500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-07 05:00:00 CEST / 1218078000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-08 11:25:00 CEST / 1218187500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-09 17:50:00 CEST / 1218297000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-11 00:15:00 CEST / 1218406500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-12 06:40:00 CEST / 1218516000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-13 13:05:00 CEST / 1218625500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-14 19:30:00 CEST / 1218735000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-16 01:55:00 CEST / 1218844500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-17 08:20:00 CEST / 1218954000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-18 14:45:00 CEST / 1219063500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-19 21:10:00 CEST / 1219173000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-21 03:35:00 CEST / 1219282500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-22 10:00:00 CEST / 1219392000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-23 16:25:00 CEST / 1219501500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-24 22:50:00 CEST / 1219611000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-26 05:15:00 CEST / 1219720500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-27 11:40:00 CEST / 1219830000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-28 18:05:00 CEST / 1219939500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-30 00:30:00 CEST / 1220049000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-08-31 06:55:00 CEST / 1220158500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-01 13:20:00 CEST / 1220268000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-02 19:45:00 CEST / 1220377500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-04 02:10:00 CEST / 1220487000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-05 08:35:00 CEST / 1220596500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-06 15:00:00 CEST / 1220706000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-07 21:25:00 CEST / 1220815500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-09 03:50:00 CEST / 1220925000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-10 10:15:00 CEST / 1221034500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-11 16:40:00 CEST / 1221144000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-12 23:05:00 CEST / 1221253500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-14 05:30:00 CEST / 1221363000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-15 11:55:00 CEST / 1221472500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-16 18:20:00 CEST / 1221582000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-18 00:45:00 CEST / 1221691500 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+			<!-- 2008-09-19 07:10:00 CEST / 1221801000 --> <row><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v><v> NaN </v></row>
+		</database>
+	</rra>
+</rrd>

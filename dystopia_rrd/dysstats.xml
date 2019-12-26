@@ -1,0 +1,275 @@
+<!-- Round Robin Database Dump --><rrd>	<version> 0003 </version>
+	<step> 300 </step> <!-- Seconds -->
+	<lastupdate> 1221843351 </lastupdate> <!-- 2008-09-19 18:55:51 CEST -->
+
+	<ds>
+		<name> players </name>
+		<type> GAUGE </type>
+		<minimal_heartbeat> 600 </minimal_heartbeat>
+		<min> 0.0000000000e+00 </min>
+		<max> 1.0000000000e+03 </max>
+
+		<!-- PDP Status -->
+		<last_ds> 0 </last_ds>
+		<value> 0 </value>
+		<unknown_sec> 0 </unknown_sec>
+	</ds>
+
+	<ds>
+		<name> pwservs </name>
+		<type> GAUGE </type>
+		<minimal_heartbeat> 600 </minimal_heartbeat>
+		<min> 0.0000000000e+00 </min>
+		<max> 5.0000000000e+02 </max>
+
+		<!-- PDP Status -->
+		<last_ds>  </last_ds>
+		<value> 0 </value>
+		<unknown_sec> 0 </unknown_sec>
+	</ds>
+
+	<ds>
+		<name> vacservs </name>
+		<type> GAUGE </type>
+		<minimal_heartbeat> 600 </minimal_heartbeat>
+		<min> 0.0000000000e+00 </min>
+		<max> 5.0000000000e+02 </max>
+
+		<!-- PDP Status -->
+		<last_ds>  </last_ds>
+		<value> 0 </value>
+		<unknown_sec> 0 </unknown_sec>
+	</ds>
+
+	<ds>
+		<name> servs </name>
+		<type> GAUGE </type>
+		<minimal_heartbeat> 600 </minimal_heartbeat>
+		<min> 0.0000000000e+00 </min>
+		<max> 5.0000000000e+02 </max>
+
+		<!-- PDP Status -->
+		<last_ds> 0 </last_ds>
+		<value> 0 </value>
+		<unknown_sec> 0 </unknown_sec>
+	</ds>
+
+	<ds>
+		<name> playerspace </name>
+		<type> GAUGE </type>
+		<minimal_heartbeat> 600 </minimal_heartbeat>
+		<min> 0.0000000000e+00 </min>
+		<max> 1.0000000000e+04 </max>
+
+		<!-- PDP Status -->
+		<last_ds> 0 </last_ds>
+		<value> 0 </value>
+		<unknown_sec> 0 </unknown_sec>
+	</ds>
+
+	<ds>
+		<name> bots </name>
+		<type> GAUGE </type>
+		<minimal_heartbeat> 600 </minimal_heartbeat>
+		<min> 0.0000000000e+00 </min>
+		<max> 1.0000000000e+03 </max>
+
+		<!-- PDP Status -->
+		<last_ds> 0 </last_ds>
+		<value> 0 </value>
+		<unknown_sec> 0 </unknown_sec>
+	</ds>
+
+<!-- Round Robin Archives -->	<rra>
+		<cf> AVERAGE </cf>
+		<pdp_per_row> 1 </pdp_per_row> <!-- 300 seconds -->
+
+		<params>
+		<xff> 5.0000000000e-01 </xff>
+		</params>
+		<cdp_prep>
+			<ds>
+			<primary_value> 0 </primary_value>
+			<secondary_value> NaN </secondary_value>
+			<value> NaN </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 0 </primary_value>
+			<secondary_value> NaN </secondary_value>
+			<value> NaN </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 0 </primary_value>
+			<secondary_value> NaN </secondary_value>
+			<value> NaN </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 0 </primary_value>
+			<secondary_value> NaN </secondary_value>
+			<value> NaN </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 0 </primary_value>
+			<secondary_value> NaN </secondary_value>
+			<value> NaN </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 0 </primary_value>
+			<secondary_value> NaN </secondary_value>
+			<value> NaN </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+		</cdp_prep>
+		<database>
+		</database>
+	</rra>
+	<rra>
+		<cf> AVERAGE </cf>
+		<pdp_per_row> 7 </pdp_per_row> <!-- 2100 seconds -->
+
+		<params>
+		<xff> 5.0000000000e-01 </xff>
+		</params>
+		<cdp_prep>
+			<ds>
+			<primary_value> 0 </primary_value>
+			<secondary_value> 0 </secondary_value>
+			<value> 0 </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 0 </primary_value>
+			<secondary_value> 0 </secondary_value>
+			<value> 0 </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 0 </primary_value>
+			<secondary_value> 0 </secondary_value>
+			<value> 0 </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 0 </primary_value>
+			<secondary_value> 0 </secondary_value>
+			<value> 0 </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 0 </primary_value>
+			<secondary_value> 0 </secondary_value>
+			<value> 0 </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 0 </primary_value>
+			<secondary_value> 0 </secondary_value>
+			<value> 0 </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+		</cdp_prep>
+		<database>
+		</database>
+	</rra>
+	<rra>
+		<cf> AVERAGE </cf>
+		<pdp_per_row> 30 </pdp_per_row> <!-- 9000 seconds -->
+
+		<params>
+		<xff> 5.0000000000e-01 </xff>
+		</params>
+		<cdp_prep>
+			<ds>
+			<primary_value> 0 </primary_value>
+			<secondary_value> 0 </secondary_value>
+			<value> 0 </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 0 </primary_value>
+			<secondary_value> 0 </secondary_value>
+			<value> 0 </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 0 </primary_value>
+			<secondary_value> 0 </secondary_value>
+			<value> 0 </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 0 </primary_value>
+			<secondary_value> 0 </secondary_value>
+			<value> 0 </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 0 </primary_value>
+			<secondary_value> 0 </secondary_value>
+			<value> 0 </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 0 </primary_value>
+			<secondary_value> 0 </secondary_value>
+			<value> 0 </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+		</cdp_prep>
+		<database>
+		</database>
+	</rra>
+	<rra>
+		<cf> AVERAGE </cf>
+		<pdp_per_row> 365 </pdp_per_row> <!-- 109500 seconds -->
+
+		<params>
+		<xff> 5.0000000000e-01 </xff>
+		</params>
+		<cdp_prep>
+			<ds>
+			<primary_value> 0 </primary_value>
+			<secondary_value> 0 </secondary_value>
+			<value> 0 </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 0 </primary_value>
+			<secondary_value> 0 </secondary_value>
+			<value> 0 </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 0 </primary_value>
+			<secondary_value> 0 </secondary_value>
+			<value> 0 </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 0 </primary_value>
+			<secondary_value> 0 </secondary_value>
+			<value> 0 </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 0 </primary_value>
+			<secondary_value> 0 </secondary_value>
+			<value> 0 </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value> 0 </primary_value>
+			<secondary_value> 0 </secondary_value>
+			<value> 0 </value>
+			<unknown_datapoints> 0 </unknown_datapoints>
+			</ds>
+		</cdp_prep>
+		<database>
+		</database>
+	</rra>
+</rrd>
